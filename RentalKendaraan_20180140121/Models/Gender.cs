@@ -9,7 +9,7 @@ namespace RentalKendaraan_20180140121.Models
         {
             Customer = new HashSet<Customer>();
         }
-
+        
         public int IdGender { get; set; }
         public string NamaGender { get; set; }
 

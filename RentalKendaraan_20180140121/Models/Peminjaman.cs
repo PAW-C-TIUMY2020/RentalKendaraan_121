@@ -10,7 +10,9 @@ namespace RentalKendaraan_20180140121.Models
             Pengembalian = new HashSet<Pengembalian>();
         }
 
+
         public int IdPeminjaman { get; set; }
+        
         public DateTime? TglPeminjaman { get; set; }
         public int? IdKendaraan { get; set; }
         public int? IdCustomer { get; set; }
