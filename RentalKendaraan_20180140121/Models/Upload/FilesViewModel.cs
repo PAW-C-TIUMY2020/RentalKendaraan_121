@@ -12,10 +12,8 @@ namespace RentalKendaraan_20180140121.Models.Upload
     }
     public class FilesViewModel
     {
-        internal object files;
-
         public List<FileDetails> Files { get; set; }
-            
+         = new List<FileDetails>();
     }
 
 }
